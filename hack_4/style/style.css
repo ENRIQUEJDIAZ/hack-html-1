@@ -1,0 +1,181 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+header{
+
+    margin: 30px;
+    font-family: 'Ruda';
+    font-weight: bolder;
+    letter-spacing: 4px;
+       
+
+}
+
+hr{
+    margin: auto auto;
+    background-color: black;
+    width: 30px;
+    height: 1px;
+    
+}
+
+#principal{
+
+    display: flex;
+    flex-direction: column;
+        
+}
+
+p{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
+
+}
+
+#principal p:nth-child(1){
+
+    font-size: small;
+    
+
+}
+#principal p:nth-child(2){
+    
+    color: #B88940;
+    font-size: 60px;
+   
+
+}
+
+#principal p:nth-child(3){
+    
+    font-size: 30px;
+
+}
+
+#principal p:nth-child(4){
+    font-family: 'Catamaran';
+    font-weight: bolder;
+    font-size: small;
+
+}
+
+/*---------------------------------*/
+#cuerpo{
+
+    width: 800px;
+    margin: auto auto;
+    position: relative;
+
+}
+
+#imagenes{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 8px;
+    justify-content: center;
+    z-index: 2;
+}
+
+
+
+#imagen_1{
+
+    width: 20%;
+    height: 230px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(/img/1.png);
+    background-position: center center;
+    z-index: 2;
+
+}
+
+#imagen_2{
+
+    width: 20%;
+    height: 230px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(/img/2.png);
+    background-position: center center;
+    z-index: 2;
+
+}
+
+#imagen_3{
+
+    width: 20%;
+    height: 230px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(/img/3.png);
+    background-position: center center;
+    z-index: 2;
+
+}
+
+#precios{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;  
+    column-gap:75px;
+    justify-content: center;
+
+}
+
+#franjas{
+   
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+
+.franja{
+        
+    width: 800px;
+    height: 15px;
+    background-color: #FFBD59;
+    margin-top: 20px;
+}
+
+#franja_1{
+
+margin-top: 60px;
+
+}
+
+
+footer{
+
+    margin-top: 40px;
+
+}
+.precio{
+
+    font-family: 'Catamaran';
+
+}
+
+#title_foot{
+    font-family: 'Open Sans Extra Bold';
+    font-weight: bolder;
+    font-size: 30px;
+    color: #B88940;
+    
+}
+
+#sub_foot{
+
+    font-family: 'Catamaran';
+    font-weight: bolder;
+    
+}
