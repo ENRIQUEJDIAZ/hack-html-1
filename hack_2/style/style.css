@@ -1,0 +1,61 @@
+:root{
+
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    clear: both;
+
+}
+
+section{
+    width: 800px;
+    height: 600px;
+    margin:auto auto;
+    
+
+}
+
+
+article{
+
+    width: 100%;
+    height: 70px;
+    
+
+}
+
+.colorAzul{
+
+    background-color: var(--bg-blue);
+
+}
+
+.colorMagenta{
+
+    background-color: var(--bg-wine);
+    
+
+}
+
+.margen_dimension{
+
+    margin-top: 8px;
+    float: left;
+    width: 600px;
+
+}
+
+#articulo_8{
+
+    float: left;
+    margin-top: 8px;
+    width: 784px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
